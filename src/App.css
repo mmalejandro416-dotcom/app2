@@ -1,0 +1,86 @@
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #646cff;
+  background: #1a1a1a;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-bottom: 24px;
+}
+
+.counter:hover {
+  border-color: #646cff;
+}
+
+.hero {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hero .base {
+  width: 170px;
+}
+
+.hero .framework, .hero .vite {
+  position: absolute;
+  height: 30px;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ticks {
+  height: 1px;
+  background: #333;
+  margin: 2rem 0;
+}
+
+#spacer {
+  height: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #535bf2;
+}
+
+/* Buscador Sencillo */
+.search-container {
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #646cff;
+  border-radius: 4px;
+}
